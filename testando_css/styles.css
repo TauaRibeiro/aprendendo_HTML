@@ -1,0 +1,65 @@
+body{
+    font-family: "Roboto", serif;
+    font-size: 18px;
+}
+
+.container{
+    background-color: #333;
+    color: #EEE;
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    
+    /*mesma coisa que 
+    padding: 60;*/
+
+    /*Mesma coisa da acima
+    border-top: 15px solid red;
+    border-right: 15px solid red;
+    border-left: 15px solid red;
+    border-bottom: 15px solid red;*/
+
+    border: 15px solid red;
+
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    
+    /*Mesmo esquema*/
+    margin: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+h2:hover{
+    color: red;
+}
+
+.main-aside ul {
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+}
+
+.main-aside ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-aside ul a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.main-aside ul a:visited{
+    color: green;
+    cursor: pointer;
+}

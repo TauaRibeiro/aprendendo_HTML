@@ -1,0 +1,52 @@
+.container div{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.container{
+    height: 800px;
+    background: rgba(255, 0, 0, 0.5);/*ver a área do container*/
+    display: flex;
+    flex-flow: wrap;
+    /* 
+    wrap-> quebra as linhas
+    nowrap-> não quebra as linhas
+    wrap-reverse-> a quebra ocorre na linha de cima
+    */
+    /*coluna os elementos dos container em colunas*/
+    flex-direction: row;
+
+    /*alinha no final no main axis*/
+    /* justify-content: flex-end; */
+
+    /*Alinha no início do main axis*/
+    /* justify-content: flex-start; */
+
+    /*Alinha no centro do main axis*/
+    /*justify-content: center;*/
+
+    /*Distribui os itens igualmente de forma que ocupem todo o container*/
+    /*justify-content: space-between;*/
+
+    /*Mesma coisa que o anterior, só que com margem nos lados*/
+    /*justify-content: space-around;*/
+
+    /*Alinha os itens em de acordo com o cross axis, ocupando o espaço igualmente*/
+    /* align-items: flex-end; */
+
+    /*Alinha as linhas do conteudo*/
+    /*Ocupa todo o espaço da div*/ 
+    /* align-content: stretch; */
+}
+
+.container #box-1{
+    flex-basis: 33%;
+}
+
+.container #box-2{
+    flex-basis: 33%;
+}
+
+.container #box-3{
+    align-self: flex-start;
+}
